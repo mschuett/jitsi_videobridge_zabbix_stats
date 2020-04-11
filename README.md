@@ -10,6 +10,8 @@ The initial version [romantico88/jitsi_videobridge_zabbix_stats](https://github.
 This version should be an improvement using [item value preprocessing](https://www.zabbix.com/documentation/3.4/manual/introduction/whatsnew340#item_value_preprocessing).
 That means the agent runs only a single curl request to fetch the complete statistics JSON and the Zabbix server will process it to get the individual item values.
 
+**Note: do not use this template, it is mainly a proof of concept.** I strongly recommend the current version from romantico88, because they switched to preprocessing as well and added a lot more items, graphs, and correct units.
+
 ### Full Documentation of Jitsi Videobridge Colibri Stats
 
 See https://github.com/jitsi/jitsi-videobridge/blob/master/doc/statistics.md
